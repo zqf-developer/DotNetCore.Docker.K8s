@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MI.Service.Identity", "..\mi.service.k8s\MI.Service.Identity\MI.Service.Identity\MI.Service.Identity\MI.Service.Identity.csproj", "{6D11D85B-AC6D-482A-9B68-9BFF84CDEC49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MI.Service.Account", "MI.Service.Account", "{CF7916D7-08CB-43E6-ACB3-4DD74E71BCBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MI.Service.Account", "..\mi.service.k8s\MI.Service.Account\MI.Service.Account\MI.Service.Account\MI.Service.Account.csproj", "{86FA87FC-069E-4449-BA8E-462143553987}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mi.service.k8s", "mi.service.k8s", "{0B0F51D2-D4EF-4B55-9094-2BF42D7E56FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MI.Service.Identity", "MI.Service.Identity", "{F20576BF-60F4-4EA5-9565-BDE1F6C3DB2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MI.MQStationServer", "MI.MQStationServer", "{E5C89447-41DA-459F-B0B1-9324988F18D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mi.rabbitmq.customer", "mi.rabbitmq.customer", "{1D8A28D2-F266-439C-A749-A82D63A95C9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MI.Untity", "MI.Untity", "{E54D1F87-6F4C-41C9-B310-752B61CB1AFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MI.Web-k8s", "MI.Web-k8s", "{56388F88-716D-428F-8094-81C7F3D1B849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D11D85B-AC6D-482A-9B68-9BFF84CDEC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D11D85B-AC6D-482A-9B68-9BFF84CDEC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D11D85B-AC6D-482A-9B68-9BFF84CDEC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D11D85B-AC6D-482A-9B68-9BFF84CDEC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86FA87FC-069E-4449-BA8E-462143553987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86FA87FC-069E-4449-BA8E-462143553987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86FA87FC-069E-4449-BA8E-462143553987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86FA87FC-069E-4449-BA8E-462143553987}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86FA87FC-069E-4449-BA8E-462143553987} = {CF7916D7-08CB-43E6-ACB3-4DD74E71BCBB}
+		{CF7916D7-08CB-43E6-ACB3-4DD74E71BCBB} = {0B0F51D2-D4EF-4B55-9094-2BF42D7E56FA}
+		{F20576BF-60F4-4EA5-9565-BDE1F6C3DB2B} = {0B0F51D2-D4EF-4B55-9094-2BF42D7E56FA}
+		{6D11D85B-AC6D-482A-9B68-9BFF84CDEC49} = {F20576BF-60F4-4EA5-9565-BDE1F6C3DB2B}
+	EndGlobalSection
+EndGlobal
